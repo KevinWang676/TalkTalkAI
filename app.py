@@ -197,7 +197,7 @@ with gr.Blocks() as demo:
 
         gr.HTML('''
         <div class="footer">
-                    <p>📧 - 联系我们：wangkevin676@gmail.com
+                    <p>📧 - 联系我们：talktalkai.kevin@gmail.com
                     </p>
                     
         </div>
@@ -232,7 +232,7 @@ with gr.Blocks() as demo:
     
         gr.HTML('''
         <div class="footer">
-                    <p>📧 - 联系我们：wangkevin676@gmail.com
+                    <p>📧 - 联系我们：talktalkai.kevin@gmail.com
                     </p>
                     
         </div>
