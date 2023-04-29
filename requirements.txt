@@ -1,2 +1,2 @@
-tts
-gradio>=3.21.0
+TTS
+gradio==3.27.0
