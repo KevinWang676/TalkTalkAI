@@ -1,33 +1,25 @@
 import gradio as gr
-import os
-
-stable_diffusion = gr.Blocks.load(name="spaces/runwayml/stable-diffusion-v1-5")
-
-def get_images(prompt):
-    gallery_dir = stable_diffusion(prompt, fn_index=2)
-    sd_output = [os.path.join(gallery_dir, image) for image in os.listdir(gallery_dir)]
-    return sd_output
-
 
 with gr.Blocks() as demo:
     
-    with gr.Tab("AI作画-极速版"):
 
-        gr.Markdown('''# <center>🥳 滔滔AI 🎶</center>
-                ### <center>🥰 - 滔滔AI，让有爱的AI滔滔不绝</center>
+    gr.Markdown('''# <center>🥳 滔滔AI 🎶</center>
+                ## <center>🥰 - 滔滔AI，让有爱的AI滔滔不绝</center>
                 ### <center>🦄 - TalkTalkAI, let lovely AI brighten the future</center>
-    
-        ''')
-
-        with gr.Row():
-            inp1 = gr.Textbox(label="请提供关键词(英文)", value="A large cabin on top of a sunny mountain in the style of Dreamworks, artstation", lines=3)
-            btn = gr.Button("开始绘制您的专属作品吧")
-        with gr.Row():
-            out1 = gr.Gallery(
-                label="为您绘制的专属作品", show_label=True, elem_id="gallery"
-            )
+    ''')
         
-        btn.click(get_images, [inp1], [out1])
+    with gr.Tab("🤩 - 重磅首发：最强大的AI歌手界面"):
+
+        gr.Markdown('''
+                    ## 🎶 AI歌手：今夜闻君琵琶语，如听仙乐耳暂明 🎸
+                    ## 功能简介：歌声转换 + AI拟声 + 音乐视频一键制作 + 支持动态字幕与音浪特效 🌊
+                    ## 
+                    # 点击这里进行访问：[滔滔AI](https://kevinwang676-test-1.hf.space) 🔮
+                    ### 
+                    ### 诚挚欢迎所有优秀的音乐人与我们合作(联系方式见网站底部)，我们将竭尽所能的提供AI声音方面的技术支持，并且免费为您制作行业内最高质量的AI歌手！🎙️
+                    ### 滔滔AI期待与所有用户和合作者共同谱写AI时代的精彩乐章！💕
+                    #
+        ''')
 
 
         gr.HTML('''
@@ -45,23 +37,17 @@ with gr.Blocks() as demo:
         </div>
         ''')     
 
-    with gr.Tab("发现更多有趣功能"):
-
-        gr.Markdown('''# <center>🥳 滔滔AI 🎶</center>
-                ### <center>🥰 - 滔滔AI，让有爱的AI滔滔不绝</center>
-                ### <center>🦄 - TalkTalkAI, let lovely AI brighten the future</center>
-    
-        ''')
-
+    with gr.Tab("🧸 - 发现更多有趣功能"):
 
         gr.Markdown(
             """ 
-            ## 😄 - 更多精彩尽在滔滔AI
+            ## 😄 更多精彩，尽在滔滔AI
             
-            ## 🖌️ [Stable Diffusion全家桶](https://kevinwang676-stable-diffusion-for-all.hf.space)：AI画家，为您执笔作画
+            ## 🎙️ [Bark真实拟声](https://kevinwang676-bark-with-voice-cloning.hf.space)：AI嘴替，为您在线发声
             ## 🎶 [Sovits](https://kevinwang676-voice-cloning-for-bilibili.hf.space)：AI歌手，为您一展歌喉
             
-            ## 🤖 [声音克隆](https://kevinwang676-voice-cloning-demo.hf.space)：AI拟声，为您妙语连珠
+            ## 🤖 [快速声音克隆](https://kevinwang676-voice-cloning-demo.hf.space)：AI拟声，为您妙语连珠
+            #
         """
         )
     
@@ -81,5 +67,5 @@ with gr.Blocks() as demo:
         </div>
         ''')     
 
-if __name__ == '__main__':
-    demo.queue(concurrency_count=5, max_size=20).launch(debug=True)
+
+demo.launch(debug=True)
