@@ -18,7 +18,7 @@ with gr.Blocks() as demo:
                     # 点击这里进行访问：[滔滔AI-音乐](https://kevinwang676-test-1.hf.space) 🔮
                     ### 
                     ### 诚挚邀请所有优秀的音乐人与我们合作(联系方式见网站底部)，我们将竭尽所能的提供AI声音方面的技术支持，并且免费为您制作行业内最高质量的AI歌手！🎙️
-                    ### 滔滔AI期待与所有用户和合作伙伴共同谱写AI时代的精彩乐章！💕
+                    ### 滔滔AI期待与所有用户和合作伙伴共同谱写AI时代的精彩乐章！💕 B站账号：[滔滔AI](https://space.bilibili.com/501495851?spm_id_from=333.999.0.0)
                     #
         ''')
 
@@ -51,15 +51,15 @@ with gr.Blocks() as demo:
             #
         """
         )
-    
+
         gr.HTML('''
         <div class="footer">
                     <p>📧 - 联系我们：talktalkai.kevin@gmail.com
                     </p>
                     
         </div>
-        ''')  
-        
+        ''')
+
         gr.HTML('''
         <div class="footer">
                     <p>🖼️💕🎡 - 滔滔AI，为爱滔滔；有意清秋入衡霍，为君无尽写江天
