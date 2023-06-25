@@ -44,7 +44,7 @@ with gr.Blocks() as demo:
             """ 
             ## 😄 更多精彩，尽在滔滔AI
             
-            ## 🎙️ [Bark真实拟声](https://kevinwang676-bark-voice-cloning.hf.space)：AI嘴替，为您在线发声（⭐全网首发⭐）
+            ## 🎙️ [Bark真实拟声](https://kevinwang676-bark-with-voice-cloning.hf.space)：AI嘴替，为您在线发声（⭐全网首发⭐）
             ## 🎶 [Sovits](https://kevinwang676-voice-cloning-for-bilibili.hf.space)：AI歌手，为您一展歌喉
             
             ## 🤖 [快速声音克隆](https://kevinwang676-voice-cloning-demo.hf.space)：AI拟声，为您妙语连珠
