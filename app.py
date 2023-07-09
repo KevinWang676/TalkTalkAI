@@ -15,7 +15,7 @@ with gr.Blocks() as demo:
                     ### 功能简介：歌声转换 + AI拟声 + 音乐视频一键制作 + 支持动态字幕与音浪特效 🌊
                     ### 合作音乐人(持续更新中)：[一清清清](https://space.bilibili.com/22960772?spm_id_from=333.337.0.0)
                     ## 
-                    # 点击这里进行访问：[滔滔AI-音乐](https://kevinwang676-Voice-Cloning-for-Bilibili.hf.space) 🔮
+                    # 点击这里使用AI歌手：[滔滔AI-音乐](https://kevinwang676-Voice-Cloning-for-Bilibili.hf.space) 🔮
                     ###
                     ### 我们还为您准备了更专业的AI歌手操作界面：[滔滔AI-音乐专业版](https://kevinwang676-test-1.hf.space) （使用[指南](https://www.bilibili.com/video/BV1Zs4y1r7t3/?spm_id_from=333.999.0.0&vd_source=940fe82ece38c8c3078c080ea544aab7)）
                     ### 
