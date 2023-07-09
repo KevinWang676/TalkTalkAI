@@ -12,7 +12,7 @@ with gr.Blocks() as demo:
 
         gr.Markdown('''
                     ## 🎶 AI歌手：今夜闻君琵琶语，如听仙乐耳暂明 🎸
-                    ### 功能简介：歌声转换 + AI拟声 + 音乐视频一键制作 + 支持动态字幕与音浪特效 🌊
+                    ### 专业版的功能简介：歌声转换 + AI拟声 + 音乐视频一键制作 + 支持动态字幕与音浪特效 🌊
                     ### 合作音乐人(持续更新中)：[一清清清](https://space.bilibili.com/22960772?spm_id_from=333.337.0.0)
                     ## 
                     # 点击这里使用AI歌手：[滔滔AI-音乐](https://kevinwang676-Voice-Cloning-for-Bilibili.hf.space) 🔮
